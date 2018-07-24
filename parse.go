@@ -14,8 +14,7 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 
-	"gh.iiji.jp/keisuk-t/doapi/protocol"
-	// "github.com/iij/p2pubapi/protocol"
+	"github.com/iij/doapi/protocol"
 )
 
 func execTemplate(name string, tmplstr string, arg interface{}) string {
